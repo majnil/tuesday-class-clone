@@ -55,3 +55,7 @@ code {
         visibility: hidden;
     }
 }
+
+img {
+ text-align: right; 
+}
