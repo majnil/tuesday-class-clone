@@ -32,3 +32,22 @@ ul {
 code {
  font-family: 'Courier New', monospace; 
 }
+
+.text-style {
+    font-size: 48px;
+    color: #steelblue;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
+
+/* CSS Blink Animation */
+.blink {
+    animation: blink-animation 1s steps(1, start) infinite;
+}
+
+@keyframes blink-animation {
+    50% {
+        visibility: hidden;
+    }
+}
